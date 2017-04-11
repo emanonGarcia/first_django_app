@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 Before running any migrations to your own database make the appropriate changes settings.py
 
-'''
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -37,7 +37,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-'''
+```
 
 After this, from the same directory as manage.py run
 
