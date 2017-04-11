@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'invincibles.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'theInvincibles',
-        'USER': 'emanon805',
-        'PASSWORD': 'mypassword',
+        'NAME': '<database name>',
+        'USER': '<your username>',
+        'PASSWORD': '<your password>',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
